@@ -1,0 +1,22 @@
+This is Sky Warriors, a very small multiplayer game, written in Python using
+the pygame library. It took almost two days to write it from scratch and
+it was our Final Project[1] for the IPW NetApp Course[2]. It's very buggy at
+the moment, and it doesn't work quite well, but it's still playable. Maybe
+i'll find some time in the near future and make it a really enjoyable game.
+
+1) Start the server: ./server PORT
+		i.e.: $ ./server 1234
+
+2) Start the two clients: ./client HOST PORT
+		i.e. $ ./client 192.168.1.10 1234
+
+Pay attention to run the clients with the same port as that opened with the 
+server. You can run both clients and the server on the same computer from 
+different terminals.
+	i.e.:
+		- terminal 1: $ ./server 1234
+		- terminal 2: $ ./client localhost 1234
+		- terminal 3: $ ./client localhost 1234
+
+[1] http://curs.rosedu.org/wiki/ipworkshop/netapp/proiecte/sky-warriors
+[2] http://curs.rosedu.org/wiki/ipworkshop/netapp/home
